@@ -4,14 +4,243 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
     <!-- bootstrap css link -->
     <link
       rel="stylesheet"
-      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css "
     />
   </head>
+
   <body>
-    <h1 class="text-danger ">jell wold</h1>
+    <!-- testimonials section start   (kth)-->
+    <section class="bg-white">
+      <div class="container-lg py-4">
+        <!-- testimonials header -->
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="text-capitalize fs-2 fw-semibold">
+              What our students are saying ?
+            </h3>
+            <div class="flex mx-auto mt-6">
+              <span
+                class="d-inline-block bg-primary rounded-pill"
+                style="width: 10rem; height: 4px"
+              ></span>
+              <span
+                class="d-inline-block bg-primary bg-primary rounded-pill"
+                style="width: 12px; height: 4px"
+              ></span>
+              <span
+                class="d-inline-block bg-primary rounded-pill"
+                style="width: 4px; height: 4px"
+              ></span>
+            </div>
+          </div>
+          <!-- prev and next btns -->
+          <div
+            class="h-100 col-lg-6 pt-lg-0 mt-4 d-flex justify-content-between justify-content-lg-end gap-lg-3 p-lg-0 px-3 my-lg-auto"
+          >
+            <button
+              class="border border-2 border-primary rounded-circle bg-white d-flex align-items-center p-1"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                style="
+                  filter: invert(51%) sepia(97%) saturate(6393%)
+                    hue-rotate(212deg) brightness(104%) contrast(99%);
+                "
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="rounded-circle border border-2 border-primary bg-primary d-flex align-items-center p-1"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+        <div id="carouselExampleDark" class="carousel mt-4 carousel-dark slide">
+          <!-- inner items  -->
+          <div class="carousel-inner mx-auto mx-auto">
+          
+            <div
+              class="carousel-item active h-100  px-5"
+              data-bs-interval="10000"
+            >
+              <div
+                class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-3"
+              >
+                <div class="my-3">
+                  <div class="px-4 py-4 test mx-auto rounded-3">
+                    <div class="mb-4">
+                      <p class="fs-5 text-muted">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Alias nihil non unde cumque nesciunt, nam laboriosam
+                        incidunt perspiciatis, maiores fugiat reiciendis nobis
+                        magnam possimus, fuga voluptatum in magni. Sit, dolore.
+                      </p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <img
+                        class="me-3 rounded-circle img-thumbnail"
+                        style="width: 100px; height: 100px"
+                        src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                        alt=""
+                      />
+                      <div class="">
+                        <h4 class="fs-4">Name</h4>
+                        <p class="text-muted">Designation</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="my-3">
+                  <div class="px-4 py-4 test mx-auto rounded-3">
+                    <div class="mb-4">
+                      <p class="fs-5 text-muted">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Alias nihil non unde cumque nesciunt, nam laboriosam
+                        incidunt perspiciatis, maiores fugiat reiciendis nobis
+                        magnam possimus, fuga voluptatum in magni. Sit, dolore.
+                      </p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <img
+                        class="me-3 rounded-circle img-thumbnail"
+                        style="width: 100px; height: 100px"
+                        src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                        alt=""
+                      />
+                      <div class="">
+                        <h4 class="fs-4">Name</h4>
+                        <p class="text-muted">Designation</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="my-3">
+                  <div class="px-4 py-4 test mx-auto rounded-3">
+                    <div class="mb-4">
+                      <p class="fs-5 text-muted">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Alias nihil non unde cumque nesciunt, nam laboriosam
+                        incidunt perspiciatis, maiores fugiat reiciendis nobis
+                        magnam possimus, fuga voluptatum in magni. Sit, dolore.
+                      </p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <img
+                        class="me-3 rounded-circle img-thumbnail"
+                        style="width: 100px; height: 100px"
+                        src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                        alt=""
+                      />
+                      <div class="">
+                        <h4 class="fs-4">Name</h4>
+                        <p class="text-muted">Designation</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="carousel-item active h-100  px-5"
+              data-bs-interval="20000"
+            >
+              <div
+                class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-3"
+              >
+                <div class="my-3">
+                  <div class="px-4 py-4 test mx-auto rounded-3">
+                    <div class="mb-4">
+                      <p class="fs-5 text-muted">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Alias nihil non unde cumque nesciunt, nam laboriosam
+                        incidunt perspiciatis, maiores fugiat reiciendis nobis
+                        magnam possimus, fuga voluptatum in magni. Sit, dolore.
+                      </p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <img
+                        class="me-3 rounded-circle img-thumbnail"
+                        style="width: 100px; height: 100px"
+                        src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                        alt=""
+                      />
+                      <div class="">
+                        <h4 class="fs-4">Name</h4>
+                        <p class="text-muted">Designation</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="my-3">
+                  <div class="px-4 py-4 test mx-auto rounded-3">
+                    <div class="mb-4">
+                      <p class="fs-5 text-muted">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Alias nihil non unde cumque nesciunt, nam laboriosam
+                        incidunt perspiciatis, maiores fugiat reiciendis nobis
+                        magnam possimus, fuga voluptatum in magni. Sit, dolore.
+                      </p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <img
+                        class="me-3 rounded-circle img-thumbnail"
+                        style="width: 100px; height: 100px"
+                        src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                        alt=""
+                      />
+                      <div class="">
+                        <h4 class="fs-4">Name</h4>
+                        <p class="text-muted">Designation</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="my-3">
+                  <div class="px-4 py-4 test mx-auto rounded-3">
+                    <div class="mb-4">
+                      <p class="fs-5 text-muted">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Alias nihil non unde cumque nesciunt, nam laboriosam
+                        incidunt perspiciatis, maiores fugiat reiciendis nobis
+                        magnam possimus, fuga voluptatum in magni. Sit, dolore.
+                      </p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <img
+                        class="me-3 rounded-circle img-thumbnail"
+                        style="width: 100px; height: 100px"
+                        src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                        alt=""
+                      />
+                      <div class="">
+                        <h4 class="fs-4">Name</h4>
+                        <p class="text-muted">Designation</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonials section end -->
   </body>
   <!-- bootstrap js link -->
   <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
